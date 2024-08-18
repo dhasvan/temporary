@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #e0f7fa; 
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #006064; 
+}
+
+nav ul li .btn {
+    background: #00796b; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li .btn:hover {
+    background: #004d40;
+}
+
+
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    min-height: 200px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 4rem;
+    color: #000000; 
+}
+
+.banner p {
+    margin: 10px 0 20px;
+}
+
+.banner .btn {
+    background: #004d40; 
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.banner .btn:hover {
+    background: #00251a; 
+}
+
+
+.services {
+    background: linear-gradient(to right, #ffeb3b, #ffc107, #ff9800); 
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .service {
+    margin: 20px 0;
+}
+
+
+.about-us {
+    background: #e0f2f1; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    margin-bottom: 20px;
+}
+
+.about-us .btn {
+    background: #00796b; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.about-us .btn:hover {
+    background: #004d40; 
+}
+
+
+.our-services {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.our-services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.our-services .service-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.our-services .service-box h4 {
+    margin-top: 0;
+    color: #00796b; 
+}
+
+.our-services .service-box p {
+    color: #004d40; 
+}
+
+.contact-form {
+    background: #e0f2f1; 
+    padding: 50px 0;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #00796b; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #004d40; 
+}
